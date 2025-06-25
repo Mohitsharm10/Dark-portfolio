@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* ✅ 1️⃣ Font face */
+@font-face {
+  font-family: 'Inter';
+  src: url('/remixicon-BVUuWktn.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ✅ 2️⃣ Custom text class */
+.text {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ✅ 3️⃣ Word spacing */
+.word-spacing {
+  word-spacing: 0.3rem;
+}
+
+/* ✅ 4️⃣ Global font (optional) */
+* {
+  font-family: 'Inter', sans-serif;
+ 
+}
+/* In your global CSS file (e.g., index.css or App.css) */
+.perspective {
+  perspective: 1000px;
+}
+
+.transform-style {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+

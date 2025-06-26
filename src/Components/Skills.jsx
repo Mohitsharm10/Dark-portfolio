@@ -49,12 +49,12 @@ function Skills() {
       </h2>
 
       <div className="relative">
-        <ul className="w-full flex flex-col gap-5 absolute top-[120px]">
+        <ul className="w-full h-screen flex flex-col gap-5 absolute top-[40px]">
           {skills.map((skill) => (
             <li key={skill.name}>
               <div className="w-full h-[0.5px] bg-gray-400"></div>
               <p
-                className="font-bold tracking-[5px] text-3xl sm:text-8xl md:text-8x text-gray-300 hover:text-orange-500 transition duration-500 ml-10 sm:ml-40 md:ml-40 cursor-pointer"
+                className="font-bold tracking-[5px] text-3xl sm:text-5xl md:text-8x text-gray-300 hover:text-orange-500 transition duration-500 ml-10 sm:ml-40 md:ml-40 cursor-pointer"
                 onMouseEnter={() => setHoveredImage(skill.img)}
                 onMouseLeave={() => setHoveredImage(null)}
               >

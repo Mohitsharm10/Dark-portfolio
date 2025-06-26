@@ -29,7 +29,7 @@ const projects = [
 export default function FlipProjects() {
   return (
     <section className="bg-black py-12 px-4">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <h2 className="text-gray-600 text-3xl font-bold ml-20 mb-20 mt-10 tracking-[5px] uppercase">Projects</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -40,11 +40,11 @@ export default function FlipProjects() {
             >
               <div className="relative w-full h-full transition-transform duration-700 transform-style preserve-3d hover:rotate-y-180">
                 {/* Front */}
-                <div className="absolute inset-0 bg-[#063970] rounded-xl overflow-hidden shadow-md backface-hidden">
+                <div className="absolute  inset-0 bg-[#063970] rounded-xl overflow-hidden shadow-md backface-hidden">
                   <img
                     src={proj.img}
                     alt={proj.name}
-                    className="w-full h-48 object-contain mt-10"
+                    className="w-full h-50 object-contain mt-10"
                   />
                   <div className="p-4 text-center">
                     <h3 className="text-gray-300 text-xl font-semibold tracking-wide uppercase">{proj.name}</h3>

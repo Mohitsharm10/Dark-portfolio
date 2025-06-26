@@ -1,9 +1,7 @@
 import React from 'react'
 import './index.css'
-import { FaInstagram, FaLinkedin, FaGithub  } from "react-icons/fa";
-import Nav from './Components/nav'
+import Nav from './Components/Nav'
 import Home from './Components/Home'
-import Layer from './Components/Layer';
 import About from './Components/About'
 import Skills from './Components/Skills'
 import Project from './Components/Project'
@@ -15,7 +13,6 @@ function App() {
     <>
      <Nav/>
      <Home/>
-     <Layer/>
      <About/>
      <Skills/> 
      <Project/>  

@@ -2,7 +2,10 @@ import React from 'react';
 
 function Connect() {
   return (
-    <section className=" w-full h-[40vh] bg-black text-white px-10 sm:px-30 md:px-30 py-20">
+    <>
+    <div className='w-full h-[1px] bg-white'></div>
+    <section className=" w-full h-1/2 bg-black text-white px-10 sm:px-30 md:px-30 py-20">
+      
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between ">
         
         
@@ -33,6 +36,7 @@ function Connect() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

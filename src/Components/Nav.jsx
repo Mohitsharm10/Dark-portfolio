@@ -8,13 +8,13 @@ function Nav() {
      <nav>
             <ul className="fixed z-30 text-white right-0 sm:right-0  px-10 py-10 text-end   font-bold ">
               <li>
-                <a href="#home" className="hover:text-gray-400 transition duration-500">HOME</a>
+                <a href="#" onClick={() => window.scrollTo({ top:0, behavior: 'smooth' })} className="hover:text-gray-400 transition duration-500">HOME</a>
               </li>
               <li>
-                <a href="#about" className="hover:text-gray-500 transition duration-500">ABOUT</a>
+                <a href="#" onClick={() => window.scrollTo({ top: 600, behavior: 'smooth' })} className="hover:text-gray-500 transition duration-500">ABOUT</a>
               </li>
               <li>
-                <a href="#contact"className="hover:text-gray-500 transition duration-500">WORK</a>
+                <a href="#" onClick={() => window.scrollTo({ top: 1700, behavior: 'smooth' })} className="hover:text-gray-500 transition duration-500">WORK</a>
               </li>
               
             </ul>
